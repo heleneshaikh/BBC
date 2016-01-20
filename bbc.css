@@ -1,0 +1,286 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Arial", "Helvetica", "freesans", "sans-serif";
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin: 0; }
+
+.wrapper {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto; }
+
+h1 {
+  background: url("/Users/heleneshaikh/documents/HTMLCSS/BBC/bbc-logo.png") no-repeat;
+  text-indent: -9999px;
+  margin: 0; }
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 5px; }
+  h3 a {
+    color: #BD150D; }
+    h3 a:after {
+      content: '';
+      display: block;
+      height: 1px;
+      background-color: #BD150D;
+      width: 20%; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex; }
+  ul li {
+    list-style-type: none;
+    display: inline-flex; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+.banner {
+  display: flex;
+  font-weight: bold;
+  height: 43px; }
+  .banner-logo {
+    flex-basis: 10%;
+    margin-top: 10px; }
+  .banner-signin {
+    flex-basis: 15%;
+    margin-top: 10px;
+    padding-left: 10px; }
+  .banner-nav {
+    flex-basis: 55%;
+    margin-right: 15px; }
+    .banner-nav a {
+      padding-bottom: 8px;
+      padding-top: 5px;
+      border-left: 1px solid #EDEDED;
+      padding-left: 15px;
+      padding-right: 15px;
+      height: 30px;
+      line-height: 30px; }
+      .banner-nav a:hover {
+        border-bottom: 2px solid black; }
+      .banner-nav a:last-child {
+        border-right: 1px solid #EDEDED; }
+  .banner-search {
+    flex-basis: 20%;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: right;
+    line-height: 30px;
+    overflow: hidden;
+    position: relative; }
+    .banner-search button {
+      background: url("/Users/heleneshaikh/documents/HTMLCSS/BBC/iconmonstr-magnifier-2-icon.svg") no-repeat;
+      background-size: 20px;
+      text-indent: -9999px;
+      float: right;
+      height: 100%;
+      width: 25px;
+      border: 0;
+      position: absolute;
+      right: 4px;
+      top: 3px; }
+    .banner-search input {
+      background-color: #E4E4E4;
+      height: 30px;
+      line-height: 30px;
+      border: 0;
+      font-size: 10px;
+      font-style: 10px;
+      padding-left: 10px;
+      width: 200px; }
+
+.brand {
+  color: white; }
+  .brand-news {
+    background-color: #BD150D;
+    font-size: 4rem;
+    line-height: 1.5;
+    text-transform: uppercase; }
+  .brand-nav {
+    background-color: #AB140D; }
+    .brand-nav a {
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      height: 30px;
+      line-height: 30px; }
+    .brand-nav li {
+      border-bottom: 2px solid #AB140D;
+      border-right: 1px solid #bb4545; }
+      .brand-nav li:last-child {
+        border-right: none; }
+      .brand-nav li:first-child {
+        padding-left: 0; }
+      .brand-nav li:hover {
+        border-bottom: 2px solid white; }
+
+.breaking {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  color: #4C4C4C; }
+  .breaking a {
+    color: #4C4C4C; }
+  .breaking-img {
+    flex: 1; }
+  .breaking-info {
+    flex: 1;
+    margin-left: 50px; }
+    .breaking-info__link {
+      font-size: 2rem;
+      line-height: 1.5;
+      font-weight: bold; }
+  .breaking ul {
+    -webkit-column-count: 2;
+    display: block; }
+
+.more {
+  border-top: 1px solid #EDEDED;
+  color: #4C4C4C;
+  font-size: 1.6rem; }
+  .more h2 {
+    margin-top: 20px;
+    font-weight: normal;
+    line-height: 1.5; }
+  .more-news {
+    display: flex;
+    flex-wrap: wrap; }
+    .more-news__item {
+      width: 230px;
+      margin-right: 10px; }
+
+figure {
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+  background-color: #EDEDED; }
+  figure h3 {
+    font-size: 1.5rem;
+    font-weight: normal; }
+  figure img {
+    width: 230px; }
+  figure figcaption {
+    padding: 8px;
+    font-weight: bold; }
+
+.services-bar__items.mobile:before, .services-bar__items.tv:before, .services-bar__items.alerts:before, .services-bar__items.contact:before {
+  content: '';
+  height: 30px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  width: 30px;
+  padding-right: 5px;
+  position: relative;
+  bottom: 4px; }
+
+.services-bar {
+  background-color: #2F2F2F;
+  color: white;
+  height: 100px;
+  margin-top: 40px; }
+  .services-bar h2 {
+    padding-top: 10px;
+    margin-bottom: 10px; }
+  .services-bar a {
+    color: white;
+    display: inline-flex; }
+  .services-bar li {
+    width: 30%; }
+  .services-bar__items.mobile:before {
+    background-image: url("/Users/heleneshaikh/documents/HTMLCSS/BBC/mobile-icon.svg"); }
+  .services-bar__items.tv:before {
+    background-image: url("/Users/heleneshaikh/documents/HTMLCSS/BBC/tv-icon.svg");
+    bottom: 8px; }
+  .services-bar__items.alerts:before {
+    background-image: url("/Users/heleneshaikh/documents/HTMLCSS/BBC/alerts-icon.svg"); }
+  .services-bar__items.contact:before {
+    background-image: url("/Users/heleneshaikh/documents/HTMLCSS/BBC/contact-icon.svg"); }
+
+.footer {
+  background-color: #4C4C4C;
+  color: white;
+  border-top: 1px solid #949494;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .footer h2 {
+    padding-bottom: 20px; }
+  .footer ul {
+    display: flex; }
+  .footer a {
+    color: white; }
+    .footer a:hover {
+      text-decoration: underline; }
+  .footer-col {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px; }
+    .footer-col ul {
+      flex-direction: column; }
+    .footer-col-1 li {
+      border-right: 1px solid #949494;
+      padding-left: 0; }
+      .footer-col-1 li:last-child {
+        padding-bottom: 0; }
+      .footer-col-1 li a {
+        padding: 0px 80px 15px 20px;
+        line-height: 16px; }
+    .footer-col-2 li {
+      border-right: 1px solid #949494; }
+      .footer-col-2 li:last-child {
+        padding-bottom: 0; }
+      .footer-col-2 li a {
+        padding: 0px 80px 15px 20px;
+        line-height: 16px; }
+    .footer-col-3 li {
+      border-right: 1px solid #949494; }
+      .footer-col-3 li:last-child {
+        padding-bottom: 0; }
+      .footer-col-3 li a {
+        padding: 0px 80px 15px 20px;
+        line-height: 16px; }
+    .footer-col-4 li {
+      border-right: 1px solid #949494; }
+      .footer-col-4 li:last-child {
+        padding-bottom: 0; }
+      .footer-col-4 li a {
+        padding: 0px 80px 15px 20px;
+        line-height: 16px; }
+    .footer-col-5 li {
+      border-right: 1px solid #949494; }
+      .footer-col-5 li:last-child {
+        padding-bottom: 0; }
+      .footer-col-5 li a {
+        padding: 0px 80px 15px 20px;
+        line-height: 16px; }
+    .footer-col-6 li {
+      border-right: 1px solid #949494;
+      border-right: none; }
+      .footer-col-6 li:last-child {
+        padding-bottom: 0; }
+      .footer-col-6 li a {
+        padding: 0px 80px 15px 20px;
+        line-height: 16px; }
+  .footer-info {
+    border-top: 1px solid #949494;
+    padding-top: 15px; }
+    .footer-info li {
+      margin: 0 10px 0 5px; }
+      .footer-info li:first-child {
+        margin-left: 0; }
+
+small {
+  margin-top: 20px;
+  display: block; }
+
+/*# sourceMappingURL=bbc.css.map */
