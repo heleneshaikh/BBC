@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-	background: url('/Users/heleneshaikh/documents/BBC/images/bbc-logo.png') no-repeat;
+	background: url('/Users/heleneshaikh/documents/BBC/img/bbc-logo.png') no-repeat;
 	text-indent:-9999px;
 	margin: 0;
 }
@@ -111,7 +111,7 @@ a {
 		overflow: hidden;
 		position: relative;
 		button {
-			background: url('/Users/heleneshaikh/documents/BBC/images/iconmonstr-magnifier-2-icon.svg') no-repeat;
+			background: url('/Users/heleneshaikh/documents/BBC/img/iconmonstr-magnifier-2-icon.svg') no-repeat;
 			background-size: 20px;
 			text-indent: -9999px;
 			float:right;
@@ -268,7 +268,7 @@ figure {
 	@each $item in $list-items {
 		&__items.#{$item}:before {
 			@extend %icons;
-			background-image: url('/Users/heleneshaikh/documents/BBC/images/#{$item}-icon.svg');
+			background-image: url('/Users/heleneshaikh/documents/BBC/img/#{$item}-icon.svg');
 			@if $item == tv {
 				bottom: 8px;
 			}
