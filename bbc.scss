@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-	background: url('/Users/heleneshaikh/documents/BBC/img/bbc-logo.png') no-repeat;
+	background: url('img/bbc-logo.png') no-repeat;
 	text-indent:-9999px;
 	margin: 0;
 }
@@ -85,20 +85,20 @@ a {
 	&-nav {
 		flex-basis:55%;
 		margin-right:15px;
-		a{	
+		a{
 			padding-bottom:8px;
 			padding-top:5px;
 			border-left: 1px solid $light-grey;
 			padding-left: 15px;
 			padding-right: 15px;
 			height: 30px;
-			line-height: 30px; 
+			line-height: 30px;
 			&:hover {
 			border-bottom: 2px solid black;
 			}
 			&:last-child {
 			border-right: 1px solid $light-grey;
-			}	
+			}
 		}
 	}
 
@@ -107,11 +107,11 @@ a {
 		margin-left: 20px;
 		margin-top: 5px;
 		text-align: right;
-		line-height: 30px; 
+		line-height: 30px;
 		overflow: hidden;
 		position: relative;
 		button {
-			background: url('/Users/heleneshaikh/documents/BBC/img/iconmonstr-magnifier-2-icon.svg') no-repeat;
+			background: url('img/iconmonstr-magnifier-2-icon.svg') no-repeat;
 			background-size: 20px;
 			text-indent: -9999px;
 			float:right;
@@ -150,10 +150,10 @@ a {
 			padding-left: 10px;
 			padding-right: 10px;
 			height: 30px;
-			line-height: 30px; 
+			line-height: 30px;
 		}
 		li {
-			
+
 			border-bottom: 2px solid $dark-red;
 			border-right: 1px solid #bb4545;
 			&:last-child {
@@ -212,7 +212,7 @@ a {
 		&__item {
 			width: 230px;
 			margin-right: 10px;
-		} 
+		}
 	}
 }
 
@@ -258,7 +258,7 @@ figure {
 		color: white;
 		display: inline-flex;
 	}
-	
+
 	li {
 		width: 30%;
 	}
@@ -268,13 +268,13 @@ figure {
 	@each $item in $list-items {
 		&__items.#{$item}:before {
 			@extend %icons;
-			background-image: url('/Users/heleneshaikh/documents/BBC/img/#{$item}-icon.svg');
+			background-image: url('img/#{$item}-icon.svg');
 			@if $item == tv {
 				bottom: 8px;
 			}
-	    }
-    }
- }
+	  }
+  }
+}
 
 .footer {
 	background-color: $dark-grey;
@@ -297,7 +297,7 @@ figure {
 			text-decoration: underline;
 		}
 	}
-	
+
 	&-col {
 		display: flex;
 		flex-direction: row;
@@ -305,13 +305,13 @@ figure {
 
 		ul {
 			flex-direction:column;
-	    } 
+	    }
 
 		@for $i from 1 to 7 {
 			&-#{$i} {
 				li {
 					@include borders(right) ;
-					
+
 					@if ($i == 6) {
 					border-right: none;
 				    }
@@ -345,8 +345,3 @@ small {
 	margin-top: 20px;
 	display: block;
 }
-
- 
-
-
-

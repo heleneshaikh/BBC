@@ -13,7 +13,7 @@ body {
   margin: 0 auto; }
 
 h1 {
-  background: url("/Users/heleneshaikh/documents/BBC/img/bbc-logo.png") no-repeat;
+  background: url("img/bbc-logo.png") no-repeat;
   text-indent: -9999px;
   margin: 0; }
 
@@ -80,7 +80,7 @@ a {
     overflow: hidden;
     position: relative; }
     .banner-search button {
-      background: url("/Users/heleneshaikh/documents/BBC/img/iconmonstr-magnifier-2-icon.svg") no-repeat;
+      background: url("img/iconmonstr-magnifier-2-icon.svg") no-repeat;
       background-size: 20px;
       text-indent: -9999px;
       float: right;
@@ -198,14 +198,14 @@ figure {
   .services-bar li {
     width: 30%; }
   .services-bar__items.mobile:before {
-    background-image: url("/Users/heleneshaikh/documents/BBC/img/mobile-icon.svg"); }
+    background-image: url("img/mobile-icon.svg"); }
   .services-bar__items.tv:before {
-    background-image: url("/Users/heleneshaikh/documents/BBC/img/tv-icon.svg");
+    background-image: url("img/tv-icon.svg");
     bottom: 8px; }
   .services-bar__items.alerts:before {
-    background-image: url("/Users/heleneshaikh/documents/BBC/img/alerts-icon.svg"); }
+    background-image: url("img/alerts-icon.svg"); }
   .services-bar__items.contact:before {
-    background-image: url("/Users/heleneshaikh/documents/BBC/img/contact-icon.svg"); }
+    background-image: url("img/contact-icon.svg"); }
 
 .footer {
   background-color: #4C4C4C;
